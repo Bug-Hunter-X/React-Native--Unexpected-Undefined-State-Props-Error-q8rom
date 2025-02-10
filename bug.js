@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable or prop before it has been properly initialized.  This frequently happens within the component's render method or during initial mount.  The component might try to render before the async data fetch is completed, leading to undefined values.
